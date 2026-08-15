@@ -1,0 +1,22 @@
+{
+  "game_path": "towerDefense_tile050.png",
+  "map": "towerDefense_tile024.png",
+  "tower": "towerDefense_tile038.png",
+
+  "rocket_tower": "towerDefense_tile204.png",
+
+  "rocket_lvl1": "towerDefense_tile206.png",
+  "rocket_lvl2": "towerDefense_tile205.png",
+
+  "gun_lvl1": "towerDefense_tile249.png",
+  "gun_lvl2": "towerDefense_tile250.png",
+
+  "tower_base": "towerDefense_tile181.png",
+
+  "fire": "towerDefense_tile298.png",
+
+  "basic": "towerDefense_tile245.png",
+  "fast": "towerDefense_tile246.png",
+  "tank_1": "towerDefense_tile291.png",
+  "tank_2": "towerDefense_tile292.png"
+}

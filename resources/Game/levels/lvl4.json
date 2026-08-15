@@ -1,0 +1,95 @@
+{
+  "info": {
+    "level_id": 1,
+    "initial_coins": 70
+  },
+
+  "map": {
+    "game_map": [
+      [1,0,0,0,0,0,1,1,1,1,1,1],
+      [0,0,1,1,2,0,2,1,1,1,1,1],
+      [1,1,2,0,0,0,0,0,0,0,2,1],
+      [0,0,0,0,1,2,1,2,2,0,0,0],
+      [1,1,1,1,1,1,1,1,1,1,1,0]
+    ],
+
+    "start_positions": [
+      { "x": 1, "y": 0 },
+      { "x": 3, "y": 0 }
+    ],
+
+    "end_positions": [
+      { "x": 4, "y": 11 }
+    ]
+  },
+
+  "towers": [
+      {
+        "type_name": "gun_lvl1",
+        "attack_damage": 5,
+        "attack_rate": 2,
+        "attack_range": 200,
+        "cost": 10
+      },
+      {
+        "type_name": "gun_lvl2",
+        "attack_damage": 10,
+        "attack_rate": 5,
+        "attack_range": 250,
+        "cost": 30
+      },
+      {
+        "type_name": "rocket_tower",
+        "attack_damage": 10,
+        "attack_rate": 5,
+        "attack_range": 200,
+        "cost": 20
+      }
+  ],
+
+  "enemies": [
+      {
+        "type": "basic",
+        "hp": 20,
+        "reward": 2,
+        "speed": 1
+      },
+      {
+        "type": "fast",
+        "hp": 15,
+        "reward": 4,
+        "speed": 3
+      },
+      {
+        "type": "tank_1",
+        "hp": 40,
+        "reward": 15,
+        "speed": 1
+      }
+  ],
+
+  "waves": [
+    {
+      "start_delay": 4,
+      "enemies": [
+        { "type": "basic", "count": 5},
+        { "type": "fast", "count": 15}
+      ]
+    },
+    {
+      "start_delay": 5,
+      "enemies": [
+        { "type": "basic", "count": 10},
+        { "type": "fast", "count": 15}
+      ]
+    },
+    {
+      "start_delay": 5,
+      "enemies": [
+        { "type": "basic", "count": 15},
+        { "type": "tank_1", "count": 5},
+        { "type": "fast", "count": 15}
+      ]
+    }
+  ]
+}
