@@ -11,6 +11,8 @@ dostane určitý počet nepřátel a vyhrává ve chvíli,
 když je počet životů > 0 a už nezbývají žádné další
 vlny - resp. nejsou tam už žádní nepřátelé.
 
+Více info o hře a ukázka je v reportu "hableden.pdf".
+
 ## Spuštění hry:
 ```
 python src/main.py
